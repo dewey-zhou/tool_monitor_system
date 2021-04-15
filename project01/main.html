@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>刀具智能监控</header>
+    <div class="main">
+        <div class="a">
+            <div class="a-left">
+                <div class="top-content">
+                    <div class="img"><img src="./img/machine01.png" alt="machine"></div>
+                    <div class="content top">机床状态：在线</div>
+                    <div class="content">网络状态：在线</div>
+                </div>
+                <div class="content">设备编号：<select  id="machine_num" >
+                    <option value="1">0001</option>
+                    <option value="2">0002</option>
+                </select></div>
+                <div class="content">设备型号：<span id="device_type"></span></div>
+                <div class="content">类别：<span id='device_class'></span></div>
+            </div>
+        <div class="a-center">
+            <div class="title">刀具历史报警统计</div>
+            <div class="block"><div id="tab1"></div></div>
+
+            </div>
+        <div class="a-right">
+            <div class="title">刀具实时状态监控</div>
+            <div class="block"><div id="tab2"></div></div>
+
+        </div>
+        </div>
+        
+        <div class="a">
+            <div class="a-left">
+                <div id='warming_block'>
+                    <div class="warming_type" id='state'></div>
+                    <div class="table-style">
+                        <table class="pure-table pure-table-bordered">
+                            <thead>
+                                <th>机台</th>
+                                <th>刀号</th>
+                            </thead>
+                            <tbody id='warmData'>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="content">监控范围：
+                        <select  id="model" >
+                            <option>自动</option>
+                            <option>手动</option>
+                        </select>
+                        <select  id="tool" ></select></div>
+                    <div class="content">加工刀号：<span id="tool_number"></span></div>
+                    <div class="content">刀具规格：<span id="tool_type"></span></div>
+                    <div class="content">刀具品牌：<span id="tool_brand"></span></div>
+                    <div class="content">加工件数：<span id="process_number"></span></div>
+
+
+                </div>
+            </div>
+            <div class="a-center">
+                <div class="title">设备负载 </div>
+                <div class="block"><div id="tab3"></div></div>
+
+            </div>
+            <div class="a-right">
+                <div class="title"> 主轴振动</div>
+                <div class="block"><div id="tab4"></div></div>
+                
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+<script type="module"src="./main.js"></script>
+<script>
+
+</script>
+</html>

@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 5%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height:100%;
+    font-size: 30px;
+    color: azure;
+    
+}
+.main{
+    position: relative;
+    width: 1900px;
+    height: 900px;
+    margin: auto;
+    
+}
+.a{
+    width: 100%;
+    height: 45%;
+    margin-top: 1%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.content{
+    margin: 20px;
+    color: black;
+}
+.a-left{
+    border: 1px solid skyblue;
+    /* padding: 5px; */
+    height: 100%;
+    width: 20%;
+    /* background: chartreuse; */
+}
+.top-content{
+    height: 150px;
+    overflow: hidden;
+    
+}
+.top{
+    margin-top: 80px;
+}
+.img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin:10px 20px 10px 10px ;
+}
+.img img{
+    width: 100%;
+    height: auto;
+}
+.title{
+    margin: 20px 0px 0px 10px;
+}
+.a-center{
+    border: 1px solid skyblue;
+    height: 100%;
+    width: 38%;
+   
+    /* background-color: chocolate; */
+    
+}
+#tab1,#tab2,#tab3,#tab4{
+   
+    width: 100%;
+    height: 100%;
+}
+.block{
+    width: 100%;
+    height: 100%;
+}
+.a-right{
+    border: 1px solid skyblue;
+    height: 100%;
+    width: 38%;
+    /* background-color: cyan; */
+}
+/* 圆形警告样式 */
+#warming_block{
+    width: 340px;
+    height: 140px;
+    margin-bottom: 50px;
+    /* background-color: antiquewhite; */
+}
+.warming_type{
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+/* 表格样式 */
+.table-style{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin: 10px 0px 10px 0px;
+}
+.pure-table {
+    width: 200px;
+    height: 100px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+.pure-table td,.pure-table th {
+    border: 1px solid #cbcbcb;
+    border-width: 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: .5em 1em;
+}
+.table-none{
+    text-align: center;
+ }
+.pure-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+select{
+    width: 60px;
+    text-align: center;
+    
+}
+ 
+
+ 
+
